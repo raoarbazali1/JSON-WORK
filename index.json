@@ -1,0 +1,29 @@
+{
+    "samsung":[
+        {"id":1,"name":"samsung Galxy","price":78000,"des":"available stock 13","image":"images/img1.jpg"},
+        {"id":2,"name":"samsung S2","price":88000,"des":"available stock 14","image":"images/img2.jpg"},
+        {"id":3,"name":"samsung A10","price":10000,"des":"available stock 16","image":"images/img3.jpg"},
+        {"id":4,"name":"samsung A53","price":90000,"des":"available stock 17","image":"images/img4.jpg"},
+        {"id":5,"name":"samsung A23","price":100000,"des":"available stock 17","image":"images/img5.jpg"}
+
+    
+    ],
+
+    "one_plus":[
+        {"id":1,"name":"1one plus 53","price":78000,"des":"available stock 13","image":"images/img6.jpg"},
+        {"id":2,"name":"1one plus S2","price":88000,"des":"available stock 14","image":"images/img7.jpg"}
+
+    ],
+
+    "black_view":[
+        {"id":1,"name":"Black view","price":18000,"des":"available stock 13","image":"images/img11.jpg"},
+        {"id":2,"name":"Black view pro","price":28000,"des":"available stock 18","image":"images/img12.jpg"},
+        {"id":3,"name":"Black view ultra","price":38000,"des":"available stock 13","image":"images/img13.jpg"},
+        {"id":4,"name":"Black view ultra pro","price":58000,"des":"available stock 14","image":"images/img14.jpg"}
+
+    ]
+
+
+
+
+}

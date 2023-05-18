@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <script src="jquery/jquery-3.6.4.min.js"></script>
+    <script src="bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+
+    <title>Detail</title>
+</head>
+<body>
+ <div class="container">
+<div class="row" >
+   
+</div>
+ </div>
+    <script>
+ let url = location.href;
+ let obj = new URL(url);
+ let r = $('.row') 
+
+ let name = obj.searchParams.get('name');
+ let price = obj.searchParams.get('price');
+ let image = obj.searchParams.get('image');
+ let des = obj.searchParams.get('des');
+ 
+ r.append(   ` <div class="col-md-4">
+    <div class="card">
+        <img src="`+image+`">
+    </div>
+</div>
+
+    <div class=""col-md-4">
+    <div class="card-body">
+ <h1>`+name+`</h1>
+ <h3>`+price+`</h3>
+
+ <p>`+des+`</p>
+</div>
+    </div>`
+ )
+    </script>
+
+</body>
+</html>
